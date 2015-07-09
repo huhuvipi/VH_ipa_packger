@@ -7,3 +7,14 @@ This script packages adding SwiftSupport folder with libswiftCore*.dylib in to i
 OSX Mavericks or Yosemite
 Xcode 6
 Xcode command line tools
+
+### How to it work
+Create a temp folder
+
+Unzip ipa file to temp folder
+
+Create SwiftSupport folder inside temp folder
+
+Copy swift libs from Payload/*app/framworks to SwiftSupport folder
+
+Package ipa file from contains inside temp folder (we have Payload and SwiftSupport folders), and save to output directory
