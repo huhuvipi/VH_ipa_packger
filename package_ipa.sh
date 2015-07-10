@@ -28,5 +28,5 @@ rm -rf "${IPA}"
 
 echo "+ zip --symlinks --verbose --recurse-paths ${IPA} ."
 cd "${TEMP_IPA_BUILT}"
-zip --symlinks --verbose --recurse-paths "${IPA}.ipa" 
-echo "===ADDING SWIFT_LIB SUCCESS===" .
+zip --symlinks --verbose --recurse-paths "${IPA}.ipa" .
+echo "===ADDING SWIFT_LIB SUCCESS===" 
